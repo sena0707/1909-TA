@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>制作コン</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.2.1/font-awesome-animation.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+  </head>
+    <body>
+      <header>
+        <div class="header-title">
+          制作コンテスト
+        </div>
+        <div class="header-list">
+          <ul>
+            <li><a href="#contest"><i class="fa fa-book"></i>概要</a></li>
+            <li><a href="#past"><i class="fa fa-desktop"></i>過去の受賞作品</a></li>
+            <li><a href="#contact"><i class="fa fa-sign-in"></i>応募する</a></li>
+          </ul>
+        </div>
+        <script>
+      $(function(){
+        // #で始まるリンクをクリックしたら実行されます
+        $('a[href^="#"]').click(function() {
+          // スクロールの速度
+          var speed = 400; // ミリ秒で記述
+          var href= $(this).attr("href");
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          var position = target.offset().top;
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+        });
+      });
+    </script>
+      </header>
+      <section class="top">
+        <div class="container">
+          <h1>Web制作コンテスト</h1>
+          <p>優秀作品には支援金10万円<br>テーマは自由<br>あなたのアイデアを形にしてみませんか？<br>
+          <a href="" class="btn"><i class="fa fa-sign-in"></i>応募する</a>
+        </div>
+      </section>
+
+      <section class="contest" id="contest">
+        <div class="container">
+          <h2 class="section-title">コンテスト概要</h2>
+          <div class="contest-txt">
+          <p>▼応募について<br>【応募締切】2019年11月20日（水）<br>【テーマ】自分が気になる技術、デザインに挑戦してみる。<br>【応募作品】作品を、HTML,CSS,JS,IMG,mov4ファイルなどすべてのソースファイルを提出すること。<br><br>▼最終プレゼンテーション<br>【日時】2019年11月23日（土）13:30〜<br>【会場】品川女子学院3F講堂<br>【優勝賞金】10万円<br>※優秀作品には支援金として10万円が贈呈されます。</p>
+          </div>
+          <div class="contest-img">
+            <img src="img/school.jpg">
+          </div>
+        </div>
+      </section>
+
+
+      
+        </div>
+      </section>
+
+      <section class="message">
+        <div class="container">
+          <p>「webサイトを作るということは、人生を作ることと同じだ」<br>
+            -どこぞのwebクリエイターが言ったとか、言ってないとか</p>
+        </div>
+      </section>
+
+      <section class="past" id="past">
+        <div class="container">
+          <h2 class="section-title">昨年の受賞作</h2>
+          <div class="past-img">
+            <iframe "width="400" height="225" src="https://www.youtube.com/embed/Jvf1qoMznBE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+          </div>
+          <div class="past-txt">
+          <p>4年A組    M・S さん  </p>
+          <p>内容：After Effects を使ってモーショングラフィックの動画を作成しました。  </p><br>
+          <p>受賞コメント：<br>
+            受賞うれしいです。<br>今後もたくさんの作品を制作していきたいです！
+          </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">応募する</h2>
+          <p>氏名</p>
+          <input type="text" placeholder="Name">
+          <p>メールアドレス</p>
+          <input type="text" placeholder="E-mail">
+          <p>作品タイトル</p>
+          <input type="text" placeholder="タイトル">
+          <p>応募テーマ</p>
+          <textarea></textarea>
+          <p>※入力間違いにご注意下さい。</p>
+          <input class="contact-submit" type="submit" value="送信">
+        </div>
+      </section>
+
+      <section class="social-section">
+        <div class="container">
+          <div class="section-title">
+            <h3>Follow Us!</h3>
+          </div>
+          <div class="follow-us">
+            <a href="https://www.facebook.com/profile.php?id=100023887280822" class="social-icon" target='_blank'>
+              <i class="fa fa-facebook faa-vertical animated-hover"></i>
+            </a>
+            <a href="https://twitter.com/CsJugi" class="social-icon" target='_blank'>
+              <i class="fa fa-twitter faa-vertical animated-hover"></i>
+            </a>
+            <a href="https://twitter.com/prog_8" class="social-icon" target='_blank'>
+              <i class="fa fa-heart faa-pulse animated"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>©Sena Mashita 2020. All rights reserved.</p>
+      </footer>
+
+    </body>
+</html>
+
+
