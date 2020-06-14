@@ -1,0 +1,261 @@
+/*ここからリセットCSS*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/*ここまでリセットCSS*/
+header {
+  height: 50px;
+  line-height: 50px;
+  background-color: #eee;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+header a {
+  color: #666;
+}
+
+header a:hover {
+  color: #000;
+}
+
+.header-title {
+  float: left;
+  padding: 0px 20px;
+  color: #333;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.header-list {
+  float: right;
+  color: #333;
+}
+
+.header-list li {
+  float: left;
+  padding: 0px 20px;
+}
+
+.fa {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.top {
+  background-image: url(img/mac3.jpg);
+  background-size: cover;
+  padding-top: 140px;
+  padding-bottom: 100px;
+  color:white;
+  
+}
+
+
+.container {
+  width: 800px;
+  padding: 0 15px;
+  margin: 0 auto;
+  
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: center;
+}
+
+
+
+.top h1 {
+  font-size: 48px;
+  padding-left: 50px;
+}
+
+.top p {
+  font-size: 24px;
+  
+  
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  margin-top: 50px;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+  transition: all 0.5s;
+}
+
+.contest {
+  height: 500px;
+}
+
+.contest p {
+  text-align: left;
+}
+
+.contest-txt {
+  width: 45%;
+  float: left;
+  margin-right: 40px;
+}
+
+.contest-img img{
+  width: 50%;
+}
+
+
+
+.section-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5d5d5d;
+  text-align: center;
+}
+
+.container h2 {
+  font-weight: normal;
+}
+
+.item-box {
+  display: flex;
+}
+
+.item {
+  flex: auto;
+  width: 33%;
+}
+
+.item img{
+  width: 50%;
+}
+
+.item-text {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.message {
+  background-image: url(img/web2.jpg);
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  color:white;
+}
+.message {
+  font-size: 26px;
+}
+
+.past {
+  height: 400px;
+}
+
+.past-img {
+ 
+  float:left;
+  padding: 20px;
+  
+}
+
+.past p {
+  text-align: left;
+}
+
+.past-txt {
+  width: 50%;
+  float: left;
+  padding-top: 40px;
+  padding-left: 60px;
+
+
+
+}
+
+.contact {
+  height: 700px;
+  background-color: #353535;
+  color: white;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  text-align: left;
+}
+
+input, textarea {
+  width: 800px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+}
+
+.social-section {
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.social-icon {
+  color: #333;
+  font-size: 36px;
+  padding: 5px;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #0dc0c0;
+  text-decoration: none;
+}
+
+footer {
+  color: #666;
+  line-height: 70px;
+  height: 70px;
+  text-align: center;
+  background-color: #f8f8f8;
+  font-size: 12px;
+}
+
+
